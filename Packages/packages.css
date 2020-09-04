@@ -1,0 +1,47 @@
+.main-package__section{
+    padding: 32px;
+}
+main{
+    padding-top: 32px;
+}
+.package{
+border: teal 5px solid;
+border-left: none;
+margin: 20px 0;
+height: 240px;
+padding: 20px;
+width: 80%;
+}
+
+.package a{
+text-decoration: none;
+display: block;
+}
+
+
+.package__title{
+    font-weight: bold;
+    color: black;
+    font-size: x-large;
+}
+
+.package__subtitle{
+    font-weight: bold;
+    color: teal;
+    font-size: large;
+}
+
+.package__info{
+    border: tomato 2px solid;
+    padding: 15px;
+    margin: 0px;
+    width: 70%;
+    font-size: 18px;
+}
+
+#free{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}

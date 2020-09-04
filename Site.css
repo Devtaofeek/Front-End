@@ -1,0 +1,101 @@
+#productoverview{
+    height: 530px;
+    padding:10px;
+    width: 100%;
+    background: teal;
+}
+#plans{
+    padding: 20px;;
+    width: 100%;
+    text-align: center;
+   
+}
+.plan{
+    display: inline-block;
+    background-color: darkkhaki;
+    margin: 8px;
+    padding: 16px;
+    width: 30%;
+    vertical-align: middle;
+    text-align: center;
+}
+.section-title{
+    color: darkgreen;
+    text-align: center;
+}
+.recommendedplan{
+background-color: darkolivegreen;
+color:white;
+box-shadow: 2px 2px 2px 2px rgba(0, 0,0, 0.5);
+}
+.recommendedplan .plan__price{
+    color: white;
+}
+.recommendedplan .plan__title{
+    color: white;
+}
+.recommended-plan__annotation
+{
+background-color: white;
+color: teal;
+padding: 8px;
+border-radius: 10px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0,0, 0.5);
+}
+.plan__title{
+color: tomato;
+}
+.plan__price{
+    color:darkslategrey;
+}
+.plan__features{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.plan__features li{
+    margin: 8px 0px;
+}
+
+#key-features{
+    background-color: darkred;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+
+}
+
+.key-feature__list{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.key-feature{
+    display: inline-block;
+    width: 33%;
+}
+.key-feature__description{
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+color: white;
+}
+
+.key-feature__image{
+    background: lightcoral;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    display: inline-block;
+    border:2px solid lightgreen;
+    margin: auto;
+}
+
+
+

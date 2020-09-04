@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    margin:0px;
+}
+
+.main-nav__items{
+    display: inline-block;
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+}
+.main-nav__item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.main-nav__item a:hover , .main-nav__item a:focus{
+    color:white;
+border-bottom: 5px solid white;    
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0px 25px;
+   
+}
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 70px);
+    text-align: right;
+    vertical-align: middle;
+}
+.main-header{
+    padding: 15px;
+    width: 100%;
+    background-color: gray;
+}
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__title{
+    font-weight: bold;
+    font-size: x-large;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.main-nav__item--cta a{
+    color: white;
+    background-color: darkgreen;
+    border: 5px none solid;
+    border-radius: 10px;;
+    padding: 7px;
+
+}
+.main-nav__item--cta a:hover , .main-nav__item--cta a:focus{
+    color: darkgreen;
+    background-color: white;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 48px;
+    
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: white;
+}
+.main-footer a:hover, .main-footer a:focus{
+    color: grey;
+}
+.main-footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.main-footer li{
+    display: inline-block;
+    margin: 0px 16px;
+}
+.button{
+    background-color: sienna;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    font: inherit;
+    font-weight: bold;
+    outline-style: none;
+}
+.button:hover{
+    border: none;
+}
+.button:focus{
+    border:none
+}
