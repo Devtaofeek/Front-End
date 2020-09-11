@@ -4,8 +4,10 @@
 <title>Page Title</title>
 <link rel="stylesheet" href="Shared.css">
 <link rel="stylesheet" href="Site.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
 <header class="main-header">
     <div>
         <a href="#" class="main-header__title">
@@ -14,6 +16,9 @@
  </div>
  <nav class="main-nav">
         <ul class="main-nav__items">
+            <li class="main-nav__item">
+                <a style="font-weight: bold; color: #c86f5e;" href="Packages/Index.html">Home</a>
+            </li>
             <li class="main-nav__item">
                 <a href="Packages/Index.html">Packages</a>
             </li>
@@ -28,11 +33,17 @@
 </header>
 <main>
     <section id="productoverview">
-        <h1>This is the product overview</h1>
+        <div class="hero-text">
+       <h2>
+           The road less traveled
+       </h2>
+        </div>
+        <img src="undraw_electric_car_b7hl.svg" class="hero-image" width="600px" height="400px"
+         alt="Kiwi standing on oval">
     </section>
         <section id="plans">
             <h1 class="section-title">Choose your plan</h1>
-            <div>
+            <div class="plan-list">
                 <article class="plan">
                     <h1 class="plan__title">FREE</h1>
                     <h2 class="plan__price">$0/month</h2>
@@ -115,6 +126,6 @@
         </ul>
     </nav>
 </footer>
-
+</div>
 </body>
 </html>
